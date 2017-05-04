@@ -36,7 +36,7 @@ Sugestão: https://balsamiq.com/products/mockups/<br>
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
-![Alt text](https://github.com/discipbd1/trab01/blob/master/bcll%20mapa%20foto.png?raw=true "Modelo Conceitual")
+![Alt text](https://raw.githubusercontent.com/BCLL-CantinaIFES/trab01/master/bcll%20mapa%20foto.PNG)
     
     B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
     C) QUALIDADE 
