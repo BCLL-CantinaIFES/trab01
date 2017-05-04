@@ -5,8 +5,10 @@ Trabalho desenvolvido durante a disciplina de BD
 
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
-seu_nome:seu_email@dominio.com<br>
-segundo_nome:segundo_email@dominio.com<br>
+Brenno Milanezi:milanezibrenno@gmail.com<br>
+Luiz Antonio Guzzo:luizguzzo@gmail.com<br>
+Caio Pupolin:pupolinantoniocaio@gmail.com<br>
+Lucas Sabino:contato@lucassabino.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO<br>
 Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
