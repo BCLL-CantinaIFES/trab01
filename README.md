@@ -27,12 +27,14 @@ Neste ponto a codificação não e necessária, somente as ideias de telas devem
 
 Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5cW1jMFFuV0k/view?usp=sharing<br>
 
-![Alt text](https://raw.githubusercontent.com/BCLL-CantinaIFES/trab01/master/fotoBalsa.png)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fotoBalsa.png)
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
     (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
     e deve ser criada antes do modelo conceitual)
+    
+  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fototabela.png)
 
 ### 5.MODELO CONCEITUAL<br>
     A) NOTACAO ENTIDADE RELACIONAMENTO
