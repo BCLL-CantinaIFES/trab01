@@ -25,7 +25,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
-Sugestão: https://balsamiq.com/products/mockups/<br>
+Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5cW1jMFFuV0k/view?usp=sharing<br>
 
 ![Alt text](https://raw.githubusercontent.com/BCLL-CantinaIFES/trab01/master/fotoBalsa.png)
 
