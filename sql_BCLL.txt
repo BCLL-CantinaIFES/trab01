@@ -1,4 +1,4 @@
-Ôªøcreate table pessoa (
+create table pessoa (
 	id_pessoa int not null primary key,
 	nome varchar(20),
 	dat_nascimento date,
@@ -7,7 +7,7 @@
 	tipo_pessoa boolean);
 
 /*create table favorita(
-	associa√ß√£o
+	associaÁ„o
 	id_produto int not null,
 	id_pessoa int not null);
 	*/
@@ -26,7 +26,7 @@ create table combos (
 	preco_combo money);
 
 /*create table possui(
-	associa√ß√£o
+	associaÁ„o
 	id_combo int not null,
 	id_produto int not null);*/
 
@@ -37,7 +37,7 @@ create table compra (
 	tipo_pagamento varchar(20));
 
 create table item_compra( 
-	/*associa√ß√£o*/
+	/*associaÁ„o*/
 	id_compra int not null,
 	id_item int not null primary key,
 	qnt_item int not null,
@@ -48,10 +48,10 @@ insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,tipo_pessoa)
 values  (1,'Glaydson','28/02/97',12345678901,'pupolinantoniocaio@gmail.com',False),
 	(2,'Caio','08/02/97',16232958703,'pupolinantoniocaio@gmail.com',False),
 	(3,'Luiz','05/03/97',15825798503,'luizguzzo@gmail.com',False),
-	(4,'Geov√°','04/01/90',98765432123,'geovalindao@yahoo.com',False),
+	(4,'Geov·','04/01/90',98765432123,'geovalindao@yahoo.com',False),
 	(5,'Astrokreltson','01/02/95',33985739840,'astrokreltson@xbox.com',False),
 	(6,'Krebler','14/09/90',16232958702,'kreblerandradre@yahoo.com.br',True),
-	(7,'Jo√£o','05/12/92',16232958703,'pupolinantoniocaio@gmail.com',True),
+	(7,'Jo„o','05/12/92',16232958703,'pupolinantoniocaio@gmail.com',True),
 	(8,'Tobias','02/02/64',81273128342,'tobias@gmail.com',True),
 	(9,'Ivonildo','25/08/67',87934289525,'1v0n1ld0@outlook.com',True),
 	(10,'Sarraberto','03/03/69',69102348203,'Ch4v3b0y@xbox.com',True);
