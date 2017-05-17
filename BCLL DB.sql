@@ -6,12 +6,6 @@
 	email varchar(50),
 	tipo_pessoa boolean);
 
-/*create table favorita(
-	associação
-	id_produto int not null,
-	id_pessoa int not null);
-	*/
-
 create table produto (
 	id_produto int not null primary key,
 	nome_produto varchar(20),
@@ -21,14 +15,10 @@ create table produto (
 
 create table combos (
 	id_combo int not null primary key,
+	nome_combo varchar(20),
 	produto_1 varchar(20),
 	produto_2 varchar(20),
 	preco_combo money);
-
-/*create table possui(
-	associação
-	id_combo int not null,
-	id_produto int not null);*/
 
 create table compra (
 	id_compra int not null primary key,
@@ -37,7 +27,6 @@ create table compra (
 	tipo_pagamento varchar(20));
 
 create table item_compra( 
-	/*associação*/
 	id_compra int not null,
 	id_item int not null primary key,
 	qnt_item int not null,
@@ -74,7 +63,13 @@ values  (1,'Coxinha','Salgado_Frito',3.50,7),
 	(3,'Torta','Salgado_Assado',4.00,10),
 	(4,'Hamburguer','Salgado_Assado',4.50,6),
 	(5,'Suco','Bebida',3.00,10),
+	(88,'Combo_1','Combo',5,7);
+
+insert into produto combos (id_combo int not null primary key,nome_combo varchar(20),produto_1 varchar(20),produto_2 varchar(20),preco_combo money)
+values  (1,'Combo_1,'Salgado_Frito',3.50,7),
+	(2,'Combo02', '10),
+	(3,'Torta','Salgado_Assado',4.00,10),
+	(4,'Hamburguer','Salgado_Assado',4.50,6),
+	(5,'Suco','Bebida',3.00,10),
 	(88,'combo_1','combo',4.50,3);
 
-
-/*select * from produto*/
