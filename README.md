@@ -11,8 +11,7 @@ Caio Pupolin:pupolinantoniocaio@gmail.com<br>
 Lucas Sabino:contato@lucassabino.com<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇAO <br>
-BCLL é uma empresa criada em 2017, visando a satisfação da demanda de praticidade e rapidez na serventia de lanchonetes e restaurantes. Através da combinação de tecnologias inovadoras e conhecimento do setor tratado, a BCLL traz às contratantes aumentos na eficiência e na rentabilidade do negócio. 
-<br> A cultura da BCLL pauta-se na interação bidirecional com o cliente para tratar as particularidades dos pedidos e nas boas relações com nossos colaboradores, visando maior credibilidade no trabalho feito. <br>
+BCLL é uma empresa criada em 2017, visando a satisfação da demanda de praticidade e rapidez na serventia de lanchonetes e restaurantes. Através da combinação de tecnologias inovadoras e conhecimento do setor tratado, a BCLL traz às contratantes aumentos na eficiência e na rentabilidade do negócio.A cultura da BCLL pauta-se na interação bidirecional com o cliente para tratar as particularidades dos pedidos e nas boas relações com nossos colaboradores, visando maior credibilidade no trabalho feito. <br>
 
 ### 3.MINI-MUNDO<br>
 
@@ -23,29 +22,19 @@ cujos elementos são propriedades que desejamos incluir, processar, armazenar,
 gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
-Neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5cW1jMFFuV0k/view?usp=sharing<br>
 
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fotoBalsa.png)
 
+Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5cW1jMFFuV0k/view?usp=sharing<br>
+
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    Esta tabela deve conter todos os atributos do sistema e um mínimo de 10 linhas.
-    (esta tabela tem a intenção de simular um relatório com todos os dados que serão armazenados 
-    e deve ser criada antes do modelo conceitual)
     
-  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fototabela.png)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fototabela.png)
 
 ### 5.MODELO CONCEITUAL<br>
-    A) NOTACAO ENTIDADE RELACIONAMENTO
+ 
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/modelo%20BCLL.PNG)
-    
-    B) NOTACAO UML (Caso esteja fazendo a disciplina de analise)
-    C) QUALIDADE 
-        Garantir que a semântica dos atributos seja clara no esquema
-        Criar o esquema de forma a garantir a redução de informação redundante, possibilidade de valores null, 
-        e tuplas falsas
-    
+ 
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
     [Grupo02]: [Nomes dos que participaram na avaliação]
