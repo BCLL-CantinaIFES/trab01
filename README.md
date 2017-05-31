@@ -33,7 +33,7 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
 
 ### 5.MODELO CONCEITUAL<br>
  
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/modelo%20BCLL.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/asd.PNG)
  
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -56,17 +56,12 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
 
 
 ### 6	MODELO LÓGICO<br>
-        a) inclusão do modelo lógico do banco de dados
-        b) verificação de correspondencia com o modelo conceitual 
-        (não serão aceitos modelos que não estejam em conformidade)
+
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/Logico_BCLL.PNG)
 
 ### 7	MODELO FÍSICO<br>
-        a) inclusão das instruções de criacão das estruturas DDL 
-        (criação de tabelas, alterações, etc..)
         
-        
-        
-        Entrega até este ponto em: (Data a ser definida)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/Esq_Fisico_BCLL.sql)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
