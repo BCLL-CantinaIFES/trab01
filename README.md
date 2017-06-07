@@ -41,35 +41,11 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
 
 #### 5.2 DECISÕES DE PROJETO
 
-. Pessoa<br>
-    <p align="justify">CPF: Definimos esse campo para que cada cliente forneça um tipo de identificação ao cadastrar-se.</p>
-    <p align="justify">Email: Será utilizado para a comunicação com o cliente para informar novas promoções.</p>
-    <p align="justify">Tipo_Pessoa: Optamos por esse campo para separar quais ações a pessoa pode operar (só funcionários podem alterar  informações no         estoque, por exemplo).</p>
-    <p align="justify">ID_Pessoa: Optamos por esse campo para ter um modo de identificar o cliente de forma mais simples que utilizar o CPF, pois tem uma       manipulação mais trabalhosa.</p>
-    <p align="justify">Nome: Definido para se referir ao cliente de forma intuitiva.</p>
-    <p align="justify">Dat_Nascimento: Definido para auxiliar em cálculos e pesquisas de faixa etária.<br>
-. Produtos<br> 
-    <p align="justify">Qnt_Produto: Definido para que tenhamos um controle preciso sobre o estoque disponível para o cliente.</p>
-    <p align="justify">Tipo_Produto: Definido para melhor organização e facilidade para montar combos e fazer promoções.</p>
-    <p align="justify">Nome_Produto: Definido para ser mostrado ao cliente de forma intuitiva.</p>
-   <p align="justify">Preço_Produto: Definido para dar valor ao produto e auxiliar em cálculos de saldo ou estudos futuros.</p>
-    <p align="justify">ID_Produto: Optamos por ter uma ID de cada produto para facilitar na manipulação de dados sobre os mesmos.<br>
-. Combos<br>
-    <p align="justify">Nome_Combo: Definido para mostrar ao cliente de forma intuitiva.</p>
-    <p align="justify">Preço_Combo: Definido para dar valor ao combo e auxiliar em acompanhamento de saldo e outros cálculos.</p>
-    <p align="justify">ID_Combo: Definido para manipulação facilitada dos dados.<br>
-. Compra<br>
-    <p align="justify">ID_Compra: Definido para manipulação de dados.</p>
-    <p align="justify">Dat_Compra: Definido para acompanhamento e estudos sobre as compras.</p>
-    <p align="justify">Tipo_Pagamento: Definido para acompanhamento e manipulação facilitada.</p>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/decisoes.png)
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 
+ ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/descri%C3%A7oes.png)
 
 ### 6	MODELO LÓGICO<br>
 
