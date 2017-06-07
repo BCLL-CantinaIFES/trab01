@@ -57,11 +57,11 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/Logico_BCLL.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/2.PNG)
 
 ### 7	MODELO FÍSICO<br>
 
-  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/foto2.png)
+  &nbsp![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/foto2.png)
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/foto1.png)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
