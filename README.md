@@ -40,12 +40,28 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 DECISÕES DE PROJETO
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+
+. Pessoa
+    CPF: Definimos esse campo para que cada cliente forneça um tipo de identificação ao cadastrar-se.
+    Email: Será utilizado para a comunicação com o cliente para informar novas promoções.
+    Tipo_Pessoa: Optamos por esse campo para separar quais ações a pessoa pode operar (só funcionários podem alterar informações no         estoque, por exemplo).
+    ID_Pessoa: Optamos por esse campo para ter um modo de identificar o cliente de forma mais simples que utilizar o CPF, pois tem uma       manipulação mais trabalhosa.
+    Nome: Definido para se referir ao cliente de forma intuitiva.
+    Dat_Nascimento: Definido para auxiliar em cálculos e pesquisas de faixa etária.<br>
+. Produtos 
+    Qnt_Produto: Definido para que tenhamos um controle preciso sobre o estoque disponível para o cliente.
+    Tipo_Produto: Definido para melhor organização e facilidade para montar combos e fazer promoções.
+    Nome_Produto: Definido para ser mostrado ao cliente de forma intuitiva.
+    Preço_Produto: Definido para dar valor ao produto e auxiliar em cálculos de saldo ou estudos futuros.
+    ID_Produto: Optamos por ter uma ID de cada produto para facilitar na manipulação de dados sobre os mesmos.<br>
+    . Combos
+    Nome_Combo: Definido para mostrar ao cliente de forma intuitiva.
+    Preço_Combo: Definido para dar valor ao combo e auxiliar em acompanhamento de saldo e outros cálculos.
+    ID_Combo: Definido para manipulação facilitada dos dados.<br>
+. Compra
+    ID_Compra: Definido para manipulação de dados.
+    Dat_Compra: Definido para acompanhamento e estudos sobre as compras.
+    Tipo_Pagamento: Definido para acompanhamento e manipulação facilitada.
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
     [objeto]: [descrição do objeto]
