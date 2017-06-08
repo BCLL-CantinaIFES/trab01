@@ -16,7 +16,7 @@ create table produtos (
 create table combos (
 	id_combo int not null primary key,
 	nome_combo varchar(20),
-	perco_combo money);
+	preco_combo money);
 
 create table compra (
 	id_compra int not null primary key,
