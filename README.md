@@ -25,7 +25,7 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fotoBalsa.png)
 
-Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5cW1jMFFuV0k/view?usp=sharing<br>
+Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20Software.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
