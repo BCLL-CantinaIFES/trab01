@@ -67,11 +67,10 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
         
-  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/create.png)
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         
-  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/insert.png)
+ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20DB.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
