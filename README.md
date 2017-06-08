@@ -66,18 +66,12 @@ Link para o resto do rascunho: https://drive.google.com/file/d/0B_bEaoHOwgzEQnQ5
 
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        b) inclusão das instruções para execução de outros procedimentos necessários (caso existam)
+        
+  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/create.png)
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-        a) Junção dos scripts anteriores em um único script 
-        (tabelas e estruturas de dados + dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
         
-        
-        Entrega até este ponto em: (Data a ser definida)
-
+  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/insert.png)
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
