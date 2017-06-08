@@ -41,11 +41,9 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 #### 5.2 DECISÕES DE PROJETO
 
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/decisoes.png)
-
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
- ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/descri%C3%A7oes.png)
+ ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/decisoes.png)
 
 ### 6	MODELO LÓGICO<br>
 
@@ -53,20 +51,13 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 7	MODELO FÍSICO<br>
 
-   ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/foto2.png)
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/foto1.png)
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-        Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
-        Referenciar todas as fontes referentes a :
-        a) obtenção dos dados
-        b) obtenção de códigos reutilizados
-        c) fontes de estudo para desenvolvimento do projeto
-
 
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
-        
+
+
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         
