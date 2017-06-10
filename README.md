@@ -23,17 +23,17 @@ gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fotoBalsa.png)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/fotoBalsa.png)
 
 Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20Software.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/fototabela.png)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/fototabela.png)
 
 ### 5.MODELO CONCEITUAL<br>
  
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/asd.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_conceitual.PNG)
  
 #### 5.1 Validação do Modelo Conceitual
     [Grupo01]: [Nomes dos que participaram na avaliação]
@@ -47,7 +47,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/2.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
 
 ### 7	MODELO FÍSICO<br>
 
