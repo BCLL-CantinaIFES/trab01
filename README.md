@@ -51,6 +51,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 7	MODELO FÍSICO<br>
 
+LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_fisico.png
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
