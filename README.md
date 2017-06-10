@@ -43,7 +43,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
- ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/decisoes.png)
+ ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/descri%C3%A7oes.PNG)
 
 ### 6	MODELO LÓGICO<br>
 
@@ -54,10 +54,9 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
-
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
 
-
+LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20DB.sql
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         
