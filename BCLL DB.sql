@@ -1,4 +1,4 @@
-﻿create table pessoa (
+create table pessoa (
 	id_pessoa int not null primary key,
 	nome varchar(20),
 	dat_nascimento date,
@@ -41,28 +41,28 @@ create table item_combo(
 
 
 insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,tipo_pessoa)
-values  (1201,'Glaydson','28/02/97',12345678901,'pupolinantoniocaio@gmail.com',False),
-	(1202,'Caio','08/02/97',16232958703,'pupolinantoniocaio@gmail.com',False),
-	(1203,'Luiz','05/03/97',15825798503,'luizguzzo@gmail.com',False),
-	(1204,'Geová','04/01/90',98765432123,'geovalindao@yahoo.com',False),
-	(1205,'Astrokreltson','01/02/95',33985739840,'astrokreltson@xbox.com',False),
-	(1206,'Krebler','14/09/90',16232958702,'kreblerandradre@yahoo.com.br',True),
-	(1207,'João','05/12/92',16232958703,'pupolinantoniocaio@gmail.com',True),
-	(1208,'Tobias','02/02/64',81273128342,'tobias@gmail.com',True),
-	(1209,'Ivonildo','25/08/67',87934289525,'1v0n1ld0@outlook.com',True),
-	(1210,'Sarraberto','03/03/69',69102348203,'Ch4v3b0y@xbox.com',True);
+values  (1201,'Glaydson','1997/02/28',12345678901,'pupolinantoniocaio@gmail.com',False),
+	(1202,'Caio','1997/02/08',16232958703,'pupolinantoniocaio@gmail.com',False),
+	(1203,'Luiz','1997/03/05',15825798503,'luizguzzo@gmail.com',False),
+	(1204,'Geová','1994/01/04',98765432123,'geovalindao@yahoo.com',False),
+	(1205,'Astrokreltson','1991/02/01',33985739840,'astrokreltson@xbox.com',False),
+	(1206,'Krebler','1990/09/14',16232958702,'kreblerandradre@yahoo.com.br',True),
+	(1207,'João','1995/12/05',16232958703,'pupolinantoniocaio@gmail.com',True),
+	(1208,'Tobias','1996/02/02',81273128342,'tobias@gmail.com',True),
+	(1209,'Ivonildo','1967/08/25',87934289525,'1v0n1ld0@outlook.com',True),
+	(1210,'Sarraberto','1969/03/03',69102348203,'Ch4v3b0y@xbox.com',True);
 
 insert into compra (id_compra,id_pessoa,data_compra,tipo_pagamento)
-values  (1001,1202,'15/03/17','Credito'),
-	(1002,1204,'15/03/17','Dinheiro vivo'),
-	(1003,1203,'15/03/17','Saldo'),
-	(1004,1206,'16/03/17','Saldo'),
-	(1005,1206,'10/03/17','Saldo'),
-	(1006,1203,'20/03/17','Dinheiro vivo'),
-	(1007,1204,'16/03/17','Dinheiro vivo'),
-	(1008,1202,'12/03/17','Dinheiro vivo'),
-	(1009,1201,'19/03/17','Credito'),
-	(1010,1210,'18/03/17','Credito');
+values  (1001,1202,'2017/03/17','Cartão'),
+	(1002,1204,'2017/03/17','Dinheiro'),
+	(1003,1203,'2017/03/17','Cartão'),
+	(1004,1206,'2017/03/17','Cartão'),
+	(1005,1206,'2017/03/17','Dinheiro'),
+	(1006,1203,'2017/03/17','Dinheiro'),
+	(1007,1204,'2017/03/17','Dinheiro'),
+	(1008,1202,'2017/03/17','Dinheiro'),
+	(1009,1201,'2017/03/17','Cartão'),
+	(1010,1210,'2017/03/17','Cartão');
 
 insert into produtos (id_produto,nome_produto,tipo_produto,preco_produto,qnt_produto)
 values  (1101,'Salgado','Frito',3.50,7),
