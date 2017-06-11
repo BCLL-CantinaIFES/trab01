@@ -65,10 +65,78 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20DB.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-        Entrega até este ponto em: (Data a ser definida)
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA WHERE 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA WHERE
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA WHERE
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <br>
+        <br>
+        TABELA PESSOA
+        SELECT *FROM PESSOA
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
