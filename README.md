@@ -65,78 +65,78 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/insert.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
- <body bgcolor="gray">TABELA PESSOA<br>
-SELECT *FROM pessoa</body><br>
+ <pre><code>TABELA PESSOA<br>
+SELECT *FROM pessoa</code></pre><br>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1.PNG)
  <br>
  <br>
- <body bgcolor="gray">TABELA COMPRA<br>
-SELECT *FROM compra</body>
+<pre><code>TABELA COMPRA<br>
+SELECT *FROM compra</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_2.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA PRODUTOS<br>
-  SELECT *FROM produtos</body>
+<pre><code>TABELA PRODUTOS<br>
+  SELECT *FROM produtos</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_3.PNG)
  <br>
  <br>
-<body bgcolor="gray">TABELA COMBOS<br>
-SELECT *FROM combos</body>
+<pre><code>TABELA COMBOS<br>
+SELECT *FROM combos</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_4.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA FAVORITA<br>
-SELECT *FROM favorita</body>
+<pre><code>TABELA FAVORITA<br>
+SELECT *FROM favorita</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_5.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA ITEM_COMBO<br>
-SELECT *FROM item_combo</body>
+<pre><code>TABELA ITEM_COMBO<br>
+SELECT *FROM item_combo</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_6.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA ITEM_COMPRA<br>
-SELECT *FROM item_compra</body>
+<pre><code>TABELA ITEM_COMPRA<br>
+SELECT *FROM item_compra</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_7.PNG)
  <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
- <body bgcolor="gray">TABELA PESSOA<br>
-SELECT *FROM pessoa WHERE tipo_pessoa=true</body>
+<pre><code>TABELA PESSOA<br>
+SELECT *FROM pessoa WHERE tipo_pessoa=true</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_1.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA COMBOS<br>
-SELECT *FROM combos WHERE preco_combo=money(4.50)</body>
+<pre><code>TABELA COMBOS<br>
+SELECT *FROM combos WHERE preco_combo=money(4.50)</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_2.PNG)
 <br>
  <br>
-<body bgcolor="gray">TABELA COMPRA<br>
-SELECT *FROM compra WHERE tipo_pagamento='Dinheiro'</body>
+<pre><code>TABELA COMPRA<br>
+SELECT *FROM compra WHERE tipo_pagamento='Dinheiro'</code></pre>
  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_3.PNG)
 <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
- <body bgcolor="gray">TABELA PESSOA<br>
-SELECT *FROM pessoa WHERE tipo_pessoa=true AND dat_nascimento>='1995-01-01'</body>
+<pre><code>TABELA PESSOA<br>
+SELECT *FROM pessoa WHERE tipo_pessoa=true AND dat_nascimento>='1995-01-01'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/logico_1.PNG)
  <br>
   <br>
- <body bgcolor="gray">TABELA PESSOA<br>
-SELECT nome, date_part('year',(age(current_date,dat_nascimento)))AS idade FROM pessoa</body>
+<pre><code>TABELA PESSOA<br>
+SELECT nome, date_part('year',(age(current_date,dat_nascimento)))AS idade FROM pessoa</code></pre>
  ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/logico_2.PNG)
  <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
-<body bgcolor="gray">TABELA PESSOA<br>
-SELECT SELECT *FROM pessoa WHERE nome LIKE 'G%'</body>
+<pre><code>TABELA PESSOA<br>
+SELECT SELECT *FROM pessoa WHERE nome LIKE 'G%'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_1.PNG)
  <br>
  <br>
-  <body bgcolor="gray">TABELA PRODUTOS<br>
-SELECT *FROM produtos WHERE nome_produto LIKE 'Combo__'</body> 
+<pre><code>TABELA PRODUTOS<br>
+SELECT *FROM produtos WHERE nome_produto LIKE 'Combo__'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_2.PNG)
 <br>
 <br>
-<body bgcolor="gray">TABELA PESSOA<br>
-SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'</body> 
+<pre><code>TABELA PESSOA<br>
+SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_3.PNG)
  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
