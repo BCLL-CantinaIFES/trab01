@@ -66,7 +66,7 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/insert.sql
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
  <body bgcolor="gray">TABELA PESSOA<br>
-SELECT *FROM pessoa</body>
+SELECT *FROM pessoa</body><br>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1.PNG)
  <br>
  <br>
