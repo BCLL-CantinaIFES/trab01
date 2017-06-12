@@ -57,86 +57,88 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_fisi
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
 
-LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20DB.sql
+LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/insert.sql
 
 #### 8.3 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
         
- LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20DB.sql
+ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/banco.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA PESSOA
+        SELECT *FROM pessoa-->
+   ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1.PNG)
+      <br>
+        <br>
+        <!--TABELA COMPRA
+        SELECT *FROM compra-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_2.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA PRODUTOS
+        SELECT *FROM produtos-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagen/select_3.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA COMBOS
+        SELECT *FROM combos-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_4.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA FAVORITA
+        SELECT *FROM favorita-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_5.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA ITEM_COMBO
+        SELECT *FROM item_combo-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_6.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
-        <br>
-        <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
-        <br>
+        <!--TABELA ITEM_COMPRA
+        SELECT *FROM item_compra-->
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_7.PNG)
         <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA WHERE 
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA PESSOA
+        SELECT *FROM pessoa WHERE tipo_pessoa=true--> 
+   ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_1.PNG)
+     <br>
+        <br>
+        <!--TABELA PESSOA
+        SELECT *FROM combos WHERE preco_combo=money(4.50)--> 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_2.PNG)
         <br>
         <br>
-        TABELA PESSOA WHERE
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+        <!--TABELA PESSOA
+        SELECT *FROM compra WHERE tipo_pagamento='Dinheiro'--> 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_3.PNG)
         <br>
-        <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA WHERE
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+       <!--TABELA PESSOA
+        SELECT *FROM pessoa WHERE tipo_pessoa=true AND dat_nascimento>='1995-01-01'--> 
+   ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/logico_1.PNG)
+     <br>
         <br>
-        <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+       <!--TABELA PESSOA
+        SELECT nome, date_part('year',(age(current_date,dat_nascimento)))AS idade FROM pessoa--> 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/logico_2.PNG)
+           <br>
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3) <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+       <!--TABELA PESSOA
+        SELECT SELECT *FROM pessoa WHERE nome LIKE 'G%'--> 
+   ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_1.PNG)
+      <br>
+        <br>
+      <!--TABELA PESSOA
+        SELECT *FROM produtos WHERE nome_produto LIKE 'Combo__'--> 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_2.PNG)
         <br>
         <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
-        <br>
-        <br>
-        TABELA PESSOA
-        SELECT *FROM PESSOA
-        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_logico.PNG)
+       <!--TABELA PESSOA
+        SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'--> 
+        ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_3.PNG)
+           <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
         Entrega até este ponto em: (Data a ser definida)
