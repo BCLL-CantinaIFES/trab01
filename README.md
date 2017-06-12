@@ -65,18 +65,18 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/insert.sql
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
-        <!--TABELA PESSOA
-        SELECT *FROM pessoa-->
+   <body background-color: gray>TABELA PESSOA
+   SELECT *FROM pessoa</body>
    ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1.PNG)
       <br>
         <br>
-        <!--TABELA COMPRA
-        SELECT *FROM compra-->
+        TABELA COMPRA
+        SELECT *FROM compra
         ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_2.PNG)
         <br>
         <br>
-        <!--TABELA PRODUTOS
-        SELECT *FROM produtos-->
+        TABELA PRODUTOS
+        SELECT *FROM produtos
         ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagen/select_3.PNG)
         <br>
         <br>
