@@ -36,11 +36,13 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_conceitual.PNG)
  
 #### 5.1 Validação do Modelo Conceitual
-    . Grupo GeMan:
-    - Gabriel Marchezi;
-    - Olavo;
-    - Hellen;
-    [Grupo]: [Nomes dos que participaram na avaliação]
+  <b>. Grupo GeMan:</b><br>
+   &nbsp- Gabriel Marchezi;<br>
+   &nbsp- Olavo;<br>
+   &nbsp- Hellen;<br>
+    
+  <b>. Meta Sistema Acadêmico:</b><br>
+  &nbsp- Gabriel Viggiano;<br>
 
 #### 5.2 DECISÕES DE PROJETO
 
