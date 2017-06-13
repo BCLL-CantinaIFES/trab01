@@ -15,11 +15,11 @@ Lucas Sabino:contato@lucassabino.com<br>
 
 ### 3.MINI-MUNDO<br>
 
-Descrever o mini-mundo! (Não deve ser maior do que 30 linhas) <br>
-Entrevista com o usuário e identificação dos requisitos.<br>
-Descrição textual das regras de negócio definidas como um  subconjunto do mundo real 
-cujos elementos são propriedades que desejamos incluir, processar, armazenar, 
-gerenciar, atualizar, e que descrevem a proposta/solução a ser desenvolvida.
+<p align="justify">O software que está sendo desenvolvido pela BCLL Software™ será vendido para empresas atuantes nos ramos de restaurantes e cantinas escolares e universitárias. O objetivo principal deste produto é automatizar as compras dos clientes, buscando um maior fluxo de vendas e, por consequência disso, uma maior cadência de vendas, maior facilidade na realização do pedido, agilidade e independência de mão de obra, gerando economia para nossos clientes. Os usuários finais serão identificados no sistema por meio de impressão digital, podendo estes criar seus combos preferidos, selecionar os produtos que desejam efetuar a compra, após feita a seleção, a tela para pagamento via cartão de crédito é exibida, e após efetuado o pagamento, o sistema imprime a guia para retirada dos produtos comprados.</p>
+<p align="justify">O estoque será atualizado em tempo de demanda, logo, o cliente terá na hora a informação de que o alimento que deseja comprar está disponível para retirada. De igual forma, no módulo interno, a cozinha saberá instantaneamente a necessidade de realizar a reposição dos produtos, bem como se planejar para produzir quantidades que estejam consoantes com o volume de vendas.</p>
+<p align="justify">O cadastro de cada cliente será realizado antes de sua primeira compra, em uma máquina distinta do ponto de venda, que será um totem touchscreen. No cadastro, informações pessoais e de contato serão armazenadas para fins de relatórios e em caso de pesquisas de satisfação, também serão cadastradas as impressões digitais para que seja feito o login no sistema.</p>
+<p align="justify">O sistema de vendas contará também com uma aba destinada às promoções, que podem ser diárias, semanais ou permanentes, onde o cliente selecionará um combo pré-definido de produtos e pagará menos por eles, caso fossem comprados individualmente. O sistema contará ainda com um módulo destinado aos restaurantes, que poderá realizar vendas de almoços pesados na balança no momento da compra.</p>
+
 
 ### 4.RASCUNHOS BÁSICOS DA INTERFACE (MOCKUPS)<br>
 
