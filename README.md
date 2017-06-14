@@ -60,6 +60,7 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_fisi
 
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
 #### 8.1 DETALHAMENTO DAS INFORMAÇÕES
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/detalhamento.PNG)
 #### 8.2 INCLUSÃO DO SCRIPT DE INSERÇÃO DOS DADOS
 
 LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/SQL/insert.sql
