@@ -33,7 +33,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 5.MODELO CONCEITUAL<br>
  
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/modelo_conceitual.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/Capturar_modelo.PNG)
  
 #### 5.1 Validação do Modelo Conceitual
   <b>. Grupo GeMan:</b><br>
