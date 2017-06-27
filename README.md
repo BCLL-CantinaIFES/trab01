@@ -10,7 +10,7 @@ Luiz Antonio Guzzo:luizguzzo@gmail.com<br>
 Caio Pupolin:pupolinantoniocaio@gmail.com<br>
 Lucas Sabino:contato@lucassabino.com<br>
 
-### 2.INTRODUÇÃO E MOTIVAÇAO <br>
+### 2.INTRODUÇÃO E MOTIVAÇÃO <br>
 <p align="justify">BCLL é uma empresa criada em 2017, visando a satisfação da demanda de praticidade e rapidez na serventia de lanchonetes e restaurantes. Através da combinação de tecnologias inovadoras e conhecimento do setor tratado, a BCLL traz às contratantes aumentos na eficiência e na rentabilidade do negócio.A cultura da BCLL pauta-se na interação bidirecional com o cliente para tratar as particularidades dos pedidos e nas boas relações com nossos colaboradores, visando maior credibilidade no trabalho feito.</p>
 
 ### 3.MINI-MUNDO<br>
@@ -35,7 +35,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
  
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/Capturar_modelo.PNG)
  
-#### 5.1 Validação do Modelo Conceitual
+#### 5.1 VALIDAÇÃO DO MODELO CONCEITUAL
   <b>. Grupo GeMan:</b><br>
    - Gabriel Marchezi;<br>
    - Olavo;<br>
