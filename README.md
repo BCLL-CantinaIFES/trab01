@@ -52,7 +52,7 @@ Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/m
 
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/trab01/captura_modelo.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/captura_modelo.PNG)
 
 ### 7	MODELO FÍSICO<br>
 
