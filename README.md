@@ -149,12 +149,12 @@ SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'</code></pre>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
 <pre><code>TABELA DE JOIN<br>
-SELECT * FROM pessoa INNER JOIN favorita ON (favorita.id_pessoa = pessoa.id_pessoa) INNER JOIN produtos ON (favorita.id_produto = produtos.id_produto) ORDER BY produtos.id_produto </code></pre>
+SELECT * FROM pessoa <br> INNER JOIN favorita <br> ON (favorita.id_pessoa = pessoa.id_pessoa) <br> INNER JOIN produtos <br> ON (favorita.id_produto = produtos.id_produto) <br> ORDER BY produtos.id_produto </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/favorita_produtos.PNG)
  <br>
  <br>
 <pre><code>TABELA DE JOIN<br>
-SELECT * FROM produtos INNER JOIN item_combo ON (produtos.id_produto = item_combo.id_produto) INNER JOIN combos ON (item_combo.id_combo = combos.id_combo) ORDER BY combos.id_combo </code></pre>
+SELECT * FROM produtos <br> INNER JOIN item_combo <br> ON (produtos.id_produto = item_combo.id_produto) <br> INNER JOIN combos <br> ON (item_combo.id_combo = combos.id_combo) <br> ORDER BY combos.id_combo </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/produtos_combo.PNG)
  <br>
  <br>
