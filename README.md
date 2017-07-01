@@ -195,6 +195,26 @@ select produtos.tipo_produto, pessoa.nome from pessoa inner join compra on (pess
  <br>
  <br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
+<pre><code>TABELA DE JOIN<br>
+select count(produtos.id_produto), produtos.nome_produto from produtos left outer join item_compra on (produtos.id_produto = item_compra.id_produto) group by produtos.id_produto </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/qntItem_comprada.PNG)
+ <br>
+ <br>
+<pre><code>TABELA DE JOIN<br>
+select pessoa.nome, count(compra.id_pessoa) as "qnt de compras" from compra right outer join pessoa on (compra.id_pessoa = pessoa.id_pessoa) group by pessoa.nome </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/pessoas_qntComprou.PNG)
+ <br>
+ <br>
+<pre><code>TABELA DE JOIN<br>
+select pessoa.nome, count(produtos.nome_produto) as "qnt favoritos" from pessoa left outer join favorita on (pessoa.id_pessoa=favorita.id_pessoa) left outer join produtos on (produtos.id_produto = favorita.id_produto) group by pessoa.nome </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/Pessoa_qntFavoritos.PNG)
+ <br>
+ <br>
+<pre><code>TABELA DE JOIN<br>
+select produtos.nome_produto, combos.nome_combo from produtos right outer join item_combo on (item_combo.id_produto = produtos.id_produto) right outer join combos on (combos.id_combo = item_combo.id_combo) </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/produto_combos.PNG)
+ <br>
+ <br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
         Entrega até este ponto em: (Data a ser definida)
