@@ -14,12 +14,12 @@ where pessoa.nome
 in (select id_pessoa from pessoa where dat_nascimento > '02/03/97')
 group by compra.tipo_pagamento;
 
-select produto.nome_produto, count(*)
-from produto
+select produtos.nome_produto, count(*)
+from produtos
 inner join item_combo
-on (produto.id_produto = item_combo.id_produto)
-inner join combo
-on (item_combo.id_combo = combo.id_combo)
-where combo.preco_combo
-in (select preco_combo from combo where preco_combo > 4.00)
-group by produto.nome_produto;
+on (produtos.id_produto = item_combo.id_produto)
+inner join combos
+on (item_combo.id_combo = combos.id_combo)
+where combos.preco_combo
+in (select preco_combo from combos where preco_combo > 4.00)
+group by produtos.nome_produto;
