@@ -48,7 +48,9 @@ LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/tabela_de_dados.ods
 
 #### 5.3 DESCRIÇÃO DOS DADOS 
 
- ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/descri%C3%A7oes.PNG)
+ ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/desc_1.PNG)
+  <br>
+ ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/desc_2.PNG)
 
 ### 6	MODELO LÓGICO<br>
 
