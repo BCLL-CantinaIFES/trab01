@@ -163,7 +163,7 @@ inner join item_compra on (compra.id_compra = item_compra.id_compra) <br>
 inner join produtos on (item_compra.id_produto = produtos.id_produto)  <br>
 inner join item_combo on (produtos.id_produto = item_combo.id_produto)  <br>
 inner join combos on (item_combo.id_combo = combos.id_combo) order by pessoa </code></pre>
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/join_total2.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/join_total2.PNG)
  <br>
  <br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
