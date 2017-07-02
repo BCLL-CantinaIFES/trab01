@@ -4,7 +4,7 @@ create table pessoa (
 	dat_nascimento date,
 	cpf bigint,
 	email varchar(50),
-	tipo_pessoa boolean);
+	id_tipo_pessoa int not null);
 
 create table produtos (
 	id_produto int not null primary key,
