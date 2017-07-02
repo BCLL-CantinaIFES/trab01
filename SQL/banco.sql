@@ -108,7 +108,7 @@ values  (1501, 1401, 1101),
 	(1507, 1404, 1102),
 	(1508, 1404, 1103);
 	
-insert into tipo_pesssoa (id_tipo_pessoa,tipo)
-values  (1601, "Cliente"),
-	(1602, "Funcionario"),
-	(1603, "Gerente");
+insert into tipo_pessoa (id_tipo_pessoa,tipo)
+values  (1601, 'Cliente'),
+	(1602, 'Funcionario'),
+	(1603, 'Gerente');
