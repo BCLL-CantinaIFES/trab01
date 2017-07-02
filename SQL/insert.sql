@@ -2,25 +2,25 @@ insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,tipo_pessoa)
 values  (1201,'Glaydson','1997/02/28',12345678901,'pupolinantoniocaio@gmail.com',False),
 	(1202,'Caio','1997/02/08',16232958703,'pupolinantoniocaio@gmail.com',False),
 	(1203,'Luiz','1997/03/05',15825798503,'luizguzzo@gmail.com',False),
-	(1204,'Geov·','1994/01/04',98765432123,'geovalindao@yahoo.com',False),
+	(1204,'Geov√°','1994/01/04',98765432123,'geovalindao@yahoo.com',False),
 	(1205,'Astrokreltson','1991/02/01',33985739840,'astrokreltson@xbox.com',False),
 	(1206,'Krebler','1990/09/14',16232958702,'kreblerandradre@yahoo.com.br',True),
-	(1207,'Jo„o','1995/12/05',16232958703,'pupolinantoniocaio@gmail.com',True),
+	(1207,'Jo√£o','1995/12/05',16232958703,'pupolinantoniocaio@gmail.com',True),
 	(1208,'Tobias','1996/02/02',81273128342,'tobias@gmail.com',True),
 	(1209,'Ivonildo','1967/08/25',87934289525,'1v0n1ld0@outlook.com',True),
 	(1210,'Sarraberto','1969/03/03',69102348203,'Ch4v3b0y@xbox.com',True);
 
 insert into compra (id_compra,id_pessoa,data_compra,tipo_pagamento)
-values  (1001,1202,'2017/03/17','Cart„o'),
+values  (1001,1202,'2017/03/17','Cart√£o'),
 	(1002,1204,'2017/03/17','Dinheiro'),
-	(1003,1203,'2017/03/17','Cart„o'),
-	(1004,1206,'2017/03/17','Cart„o'),
+	(1003,1203,'2017/03/17','Cart√£o'),
+	(1004,1206,'2017/03/17','Cart√£o'),
 	(1005,1206,'2017/03/17','Dinheiro'),
 	(1006,1203,'2017/03/17','Dinheiro'),
 	(1007,1204,'2017/03/17','Dinheiro'),
 	(1008,1202,'2017/03/17','Dinheiro'),
-	(1009,1201,'2017/03/17','Cart„o'),
-	(1010,1210,'2017/03/17','Cart„o');
+	(1009,1201,'2017/03/17','Cart√£o'),
+	(1010,1210,'2017/03/17','Cart√£o');
 
 insert into produtos (id_produto,nome_produto,tipo_produto,preco_produto,qnt_produto)
 values  (1101,'Salgado','Frito',3.50,7),
@@ -62,3 +62,8 @@ values  (1501, 1401, 1101),
 	(1506, 1403, 1104),
 	(1507, 1404, 1102),
 	(1508, 1404, 1103);
+
+insert into tipo_pesssoa (id_tipo_pessoa,tipo)
+values  (1601, "Cliente"),
+	(1602, "Funcionario"),
+	(1603, "Gerente");
