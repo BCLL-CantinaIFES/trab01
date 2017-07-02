@@ -78,7 +78,7 @@ SELECT *FROM pessoa</code></pre><br>
  <br>
  <br>
 <pre><code>TABELA TIPO_PESSOA<br>
-SELECT *FROM compra</code></pre>
+SELECT *FROM tipo_pessoa</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1_1.PNG)
 <br>
 <br>
