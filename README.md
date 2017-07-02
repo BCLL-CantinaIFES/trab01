@@ -75,6 +75,11 @@ SELECT *FROM pessoa</code></pre><br>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1.PNG)
  <br>
  <br>
+<pre><code>TABELA TIPO_PESSOA<br>
+SELECT *FROM compra</code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_1_1.PNG)
+<br>
+<br>
 <pre><code>TABELA COMPRA<br>
 SELECT *FROM compra</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/select_2.PNG)
