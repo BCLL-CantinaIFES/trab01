@@ -1,4 +1,4 @@
-insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email, id_tipo_pessoa)
+insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,id_tipo_pessoa)
 values  (1201,'Glaydson','1997/02/28',12345678901,'pupolinantoniocaio@gmail.com',1601),
 	(1202,'Caio','1997/02/08',16232958703,'pupolinantoniocaio@gmail.com',1601),
 	(1203,'Luiz','1997/03/05',15825798503,'luizguzzo@gmail.com',1601),
@@ -62,8 +62,8 @@ values  (1501, 1401, 1101),
 	(1506, 1403, 1104),
 	(1507, 1404, 1102),
 	(1508, 1404, 1103);
-
-insert into tipo_pesssoa (id_tipo_pessoa,tipo)
-values  (1601, "Cliente"),
-	(1602, "Funcionario"),
-	(1603, "Gerente");
+	
+insert into tipo_pessoa (id_tipo_pessoa,tipo)
+values  (1601, 'Cliente'),
+	(1602, 'Funcionario'),
+	(1603, 'Gerente');
