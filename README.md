@@ -28,10 +28,8 @@ Lucas Sabino:contato@lucassabino.com<br>
 Link para o resto do rascunho: https://github.com/BCLL-CantinaIFES/trab01/blob/master/BCLL%20Software.pdf<br>
 
 #### 4.1 TABELA DE DADOS DO SISTEMA:
-    
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/fototabela.png)
-LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/tabela_de_dados.ods
 
+LINK: https://github.com/BCLL-CantinaIFES/trab01/blob/master/tabela_de_dados.ods
 
 ### 5.MODELO CONCEITUAL<br>
  
