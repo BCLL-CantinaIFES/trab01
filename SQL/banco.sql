@@ -43,17 +43,17 @@ create table tipo_pessoa(
 	id_tipo_pessoa int not null primary key,
 	tipo varchar(20));
 
-insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,tipo_pessoa)
-values  (1201,'Glaydson','1997/02/28',12345678901,'pupolinantoniocaio@gmail.com',False),
-	(1202,'Caio','1997/02/08',16232958703,'pupolinantoniocaio@gmail.com',False),
-	(1203,'Luiz','1997/03/05',15825798503,'luizguzzo@gmail.com',False),
-	(1204,'Geová','1994/01/04',98765432123,'geovalindao@yahoo.com',False),
-	(1205,'Astrokreltson','1991/02/01',33985739840,'astrokreltson@xbox.com',False),
-	(1206,'Krebler','1990/09/14',16232958702,'kreblerandradre@yahoo.com.br',True),
-	(1207,'João','1995/12/05',16232958703,'pupolinantoniocaio@gmail.com',True),
-	(1208,'Tobias','1996/02/02',81273128342,'tobias@gmail.com',True),
-	(1209,'Ivonildo','1967/08/25',87934289525,'1v0n1ld0@outlook.com',True),
-	(1210,'Sarraberto','1969/03/03',69102348203,'Ch4v3b0y@xbox.com',True);
+insert into pessoa (id_pessoa,nome,dat_nascimento,cpf,email,id_tipo_pessoa)
+values  (1201,'Glaydson','1997/02/28',12345678901,'pupolinantoniocaio@gmail.com',1601),
+	(1202,'Caio','1997/02/08',16232958703,'pupolinantoniocaio@gmail.com',1601),
+	(1203,'Luiz','1997/03/05',15825798503,'luizguzzo@gmail.com',1601),
+	(1204,'Geová','1994/01/04',98765432123,'geovalindao@yahoo.com',1601),
+	(1205,'Astrokreltson','1991/02/01',33985739840,'astrokreltson@xbox.com',1601),
+	(1206,'Krebler','1990/09/14',16232958702,'kreblerandradre@yahoo.com.br',1601),
+	(1207,'João','1995/12/05',16232958703,'pupolinantoniocaio@gmail.com',1601),
+	(1208,'Tobias','1996/02/02',81273128342,'tobias@gmail.com',1602),
+	(1209,'Ivonildo','1967/08/25',87934289525,'1v0n1ld0@outlook.com',1602),
+	(1210,'Sarraberto','1969/03/03',69102348203,'Ch4v3b0y@xbox.com',1603);
 
 insert into compra (id_compra,id_pessoa,data_compra,tipo_pagamento)
 values  (1001,1202,'2017/03/17','Cartão'),
