@@ -113,7 +113,7 @@ SELECT *FROM item_compra</code></pre>
  <br>
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3)<br>
 <pre><code>TABELA PESSOA<br>
-SELECT *FROM pessoa WHERE tipo_pessoa=true</code></pre>
+SELECT *FROM pessoa WHERE id_tipo_pessoa=1601</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/where_1.PNG)
 <br>
 <br>
@@ -128,7 +128,7 @@ SELECT *FROM compra WHERE tipo_pagamento='Dinheiro'</code></pre>
 <br>
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 <pre><code>TABELA PESSOA<br>
-SELECT *FROM pessoa WHERE tipo_pessoa=true AND dat_nascimento>='1995-01-01'</code></pre>
+SELECT *FROM pessoa WHERE id_tipo_pessoa=1601 AND dat_nascimento>='1995-01-01'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/logico_1.PNG)
  <br>
   <br>
@@ -155,13 +155,14 @@ SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'</code></pre>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
 
 <pre><code>TABELA PESSOA COM JOIN<br>
-select * from pessoa <br>
+select pessoa.nome, tipo_pessoa.tipo, compra.data_compra, produtos.nome_produto,<br>
+combos.nome_combo, item_compra.qnt_item from pessoa <br>
 inner join tipo_pessoa on (pessoa.id_tipo_pessoa=tipo_pessoa.id_tipo_pessoa)<br>
-inner join favorita on (favorita.id_pessoa = pessoa.id_pessoa) <br>
 inner join compra on (pessoa.id_pessoa = compra.id_pessoa) <br>
-inner join item_compra on (compra.id_compra = item_compra.id_compra) <br>
-inner join produtos on (item_compra.id_produto = produtos.id_produto)  <br>
-inner join item_combo on (produtos.id_produto = item_combo.id_produto)  <br>
+inner join item_compra on (compra.id_compra = item_compra.id_compra)<br> 
+inner join produtos on (item_compra.id_produto = produtos.id_produto)<br>
+inner join favorita on (favorita.id_produto = produtos.id_produto) <br>
+inner join item_combo on (produtos.id_produto = item_combo.id_produto) <br> 
 inner join combos on (item_combo.id_combo = combos.id_combo) order by pessoa </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/join_total2.PNG)
  <br>
