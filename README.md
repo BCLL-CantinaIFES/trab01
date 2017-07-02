@@ -161,48 +161,76 @@ inner join combos on (item_combo.id_combo = combos.id_combo) order by pessoa </c
  <br>
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
 <pre><code>TABELA COMPRA COM GROUP BY<br>
-select pessoa.nome, count(*) from compra inner join pessoa on (compra.id_pessoa = pessoa.id_pessoa) group by pessoa.nome; </code></pre>
+select pessoa.nome, count(*) from compra <br>
+inner join pessoa on (compra.id_pessoa = pessoa.id_pessoa) <br>
+group by pessoa.nome; </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/pessoa_compra.PNG)
  <br>
  <br>
 <pre><code>TABELA PESSOA COM GROUP BY<br>
-select pessoa.nome as Pessoa, sum(produtos.preco_produto * item_compra.qnt_item) as "gastou em produtos" from pessoa inner join compra on (pessoa.id_pessoa = compra.id_pessoa) inner join item_compra on (item_compra.id_compra = compra.id_compra) inner join produtos on (produtos.id_produto = item_compra.id_produto) group by pessoa.nome </code></pre>
+select pessoa.nome as Pessoa, sum(produtos.preco_produto * item_compra.qnt_item) as "gastou em produtos" from pessoa <br>
+inner join compra on (pessoa.id_pessoa = compra.id_pessoa) <br>
+inner join item_compra on (item_compra.id_compra = compra.id_compra) <br>
+inner join produtos on (produtos.id_produto = item_compra.id_produto) <br>
+group by pessoa.nome </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/pessoa_lucro.PNG)
  <br>
  <br>
 <pre><code>TABELA COMPRA COM GROUP BY<br>
-select pessoa.nome, count(*) from compra inner join pessoa on (compra.id_pessoa = pessoa.id_pessoa) group by pessoa.nome, pessoa.dat_nascimento having pessoa.dat_nascimento > '01/01/1996' </code></pre>
+select pessoa.nome, count(*) from compra <br>
+inner join pessoa on (compra.id_pessoa = pessoa.id_pessoa) <br>
+group by pessoa.nome, pessoa.dat_nascimento <br>
+having pessoa.dat_nascimento > '01/01/1996' </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/pessoas_compra_se.PNG)
  <br>
  <br>
 <pre><code>TABELA PESSOA COM GROUP BY<br>
-select item_compra.qnt_item, pessoa.nome from pessoa inner join compra on (pessoa.id_pessoa = compra.id_pessoa) inner join item_compra on (compra.id_compra = item_compra.id_compra) inner join produtos on (produtos.id_produto = item_compra.id_produto) group by item_compra.qnt_item, pessoa.nome having item_compra.qnt_item > 1 </code></pre>
+select item_compra.qnt_item, pessoa.nome from pessoa <br>
+inner join compra on (pessoa.id_pessoa = compra.id_pessoa) <br>
+inner join item_compra on (compra.id_compra = item_compra.id_compra) <br>
+inner join produtos on (produtos.id_produto = item_compra.id_produto) <br>
+group by item_compra.qnt_item, pessoa.nome <br>
+having item_compra.qnt_item > 1 </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/qntItem_pessoa.PNG)
  <br>
  <br>
 <pre><code>TABELA PESSOA COM GROUP BY<br>
-select produtos.tipo_produto, pessoa.nome from pessoa inner join compra on (pessoa.id_pessoa = compra.id_pessoa) inner join item_compra on (compra.id_compra = item_compra.id_compra) inner join produtos on (produtos.id_produto = item_compra.id_produto) group by produtos.tipo_produto, pessoa.nome having produtos.tipo_produto = 'Bebida' </code></pre>
+select produtos.tipo_produto, pessoa.nome from pessoa <br>
+inner join compra on (pessoa.id_pessoa = compra.id_pessoa) <br>
+inner join item_compra on (compra.id_compra = item_compra.id_compra) <br>
+inner join produtos on (produtos.id_produto = item_compra.id_produto) <br>
+group by produtos.tipo_produto, pessoa.nome <br>
+having produtos.tipo_produto = 'Bebida' </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/produto_Pessoa.PNG)
  <br>
  <br>
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4)<br>
 <pre><code>TABELA PRODUTOS COM LEFT JOIN<br>
-select count(produtos.id_produto), produtos.nome_produto from produtos left outer join item_compra on (produtos.id_produto = item_compra.id_produto) group by produtos.id_produto </code></pre>
+select count(produtos.id_produto), produtos.nome_produto from produtos <br>
+left outer join item_compra on (produtos.id_produto = item_compra.id_produto) <br>
+group by produtos.id_produto </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/qntItem_comprada.PNG)
  <br>
  <br>
 <pre><code>TABELA COMPRA COM RIGHT JOIN<br>
-select pessoa.nome, count(compra.id_pessoa) as "qnt de compras" from compra right outer join pessoa on (compra.id_pessoa = pessoa.id_pessoa) group by pessoa.nome </code></pre>
+select pessoa.nome, count(compra.id_pessoa) as "qnt de compras" from compra <br>
+right outer join pessoa on (compra.id_pessoa = pessoa.id_pessoa) <br>
+group by pessoa.nome </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/pessoas_qntComprou.PNG)
  <br>
  <br>
 <pre><code>TABELA PESSOA COM LEFT JOIN<br>
-select pessoa.nome, count(produtos.nome_produto) as "qnt favoritos" from pessoa left outer join favorita on (pessoa.id_pessoa=favorita.id_pessoa) left outer join produtos on (produtos.id_produto = favorita.id_produto) group by pessoa.nome </code></pre>
+select pessoa.nome, count(produtos.nome_produto) as "qnt favoritos" from pessoa <br>
+left outer join favorita on (pessoa.id_pessoa=favorita.id_pessoa) <br>
+left outer join produtos on (produtos.id_produto = favorita.id_produto) <br>
+group by pessoa.nome </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/Pessoa_qntFavoritos.PNG)
  <br>
  <br>
 <pre><code>TABELA PRODUTOS COM RIGHT JOIN<br>
-select produtos.nome_produto, combos.nome_combo from produtos right outer join item_combo on (item_combo.id_produto = produtos.id_produto) right outer join combos on (combos.id_combo = item_combo.id_combo) </code></pre>
+select produtos.nome_produto, combos.nome_combo from produtos <br>
+right outer join item_combo on (item_combo.id_produto = produtos.id_produto) <br>
+right outer join combos on (combos.id_combo = item_combo.id_combo) </code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/produto_combos.PNG)
  <br>
  <br>
