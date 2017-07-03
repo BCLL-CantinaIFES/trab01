@@ -2,24 +2,22 @@ select pessoa.nome, count(*)
 from compra
 inner join pessoa
 on (compra.id_pessoa = pessoa.id_pessoa)
-where pessoa.nome
-in (select id_pessoa from compra where tipo_pagamento = 'Dinheiro')
+where compra.tipo_pagamento
+in ('Dinheiro')
 group by pessoa.nome;
 
-select compra.tipo_pagamento, count(*)
-from compra
-inner join pessoa
-on (compra.id_pessoa = pessoa.id_pessoa)
-where pessoa.nome
-in (select id_pessoa from pessoa where dat_nascimento > '02/03/97')
-group by compra.tipo_pagamento;
+select pessoa.nome
+from pessoa
+inner join tipo_pessoa
+on (pessoa.id_tipo_pessoa = tipo_pessoa.id_tipo_pessoa)
+where pessoa.id_tipo_pessoa
+in (select id_tipo_pessoa from tipo_pessoa where id_tipo_pessoa = 1602)
+group by pessoa.nome;
 
-select produtos.nome_produto, count(*)
-from produtos
-inner join item_combo
-on (produtos.id_produto = item_combo.id_produto)
-inner join combos
-on (item_combo.id_combo = combos.id_combo)
-where combos.preco_combo
-in (select preco_combo from combos where preco_combo > 4.00)
-group by produtos.nome_produto;
+select pessoa.nome, count(*) as "qnt de fav"
+from favorita
+inner join pessoa
+on (favorita.id_pessoa = pessoa.id_pessoa)
+where pessoa.nome
+in (select nome from pessoa where nome ilike '%a%')
+group by pessoa.nome;
