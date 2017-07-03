@@ -274,7 +274,27 @@ right outer join combos on (combos.id_combo = item_combo.id_combo) </code></pre>
  <br>
 #### 9.9	CONSULTAS COM SELF JOIN E VIEW (Todas Possíveis)<br>
 #### 9.10	SUBCONSULTAS (Mínimo 3)<br>
-        Entrega até este ponto em: (Data a ser definida)
+<pre><code>TABELA JOIN<br>
+select pessoa.nome, count(*) from compra <br>
+inner join pessoa on (compra.id_pessoa = pessoa.id_pessoa) <br>
+where compra.tipo_pagamento in ('Dinheiro') group by pessoa.nome </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/SC%20-%20pessoa_pagou_com_dinheiro_vivo%20.PNG)
+ <br>
+ <br>
+<pre><code>TABELA JOIN<br>
+select pessoa.nome from pessoa inner join tipo_pessoa <br>
+on (pessoa.id_tipo_pessoa = tipo_pessoa.id_tipo_pessoa) where pessoa.id_tipo_pessoa <br>
+in (select id_tipo_pessoa from tipo_pessoa where id_tipo_pessoa = 1602) group by pessoa.nome </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/SC%20-%20Identifica_funcionario.PNG)
+ <br>
+ <br>
+<pre><code>TABELA JOIN<br>
+select pessoa.nome, count(*) as "qnt de fav" from favorita <br>
+inner join pessoa on (favorita.id_pessoa = pessoa.id_pessoa) where pessoa.nome <br>
+in (select nome from pessoa where nome ilike '%a%') group by pessoa.nome </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/SC%20-%20favorito_por_pessoa.PNG)
+ <br>
+ <br>
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES PARA APRESENTAÇAO FINAL (Mínimo 6 e Máximo 10)<br>
 ### 11	TUTORIAL COMPLETO DE PASSOS PARA RESTAURACAO DO BANCO E EXECUCAO DE PROCEDIMENTOS ENVOLVIDOS NO TRABALHO PARA OBTENÇÃO DOS RESULTADOS<br>
         a) Outros grupos deverão ser capazes de restaurar o banco 
