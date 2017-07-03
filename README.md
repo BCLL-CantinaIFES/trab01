@@ -174,7 +174,7 @@ delete from pessoa where id_tipo_pessoa = 1602 </code></pre>
  <br>
 <pre><code>TABELA PRODUTOS<br>
 delete from produtos where tipo_produto = 'Bebida' </code></pre>
-![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20bebidas_extintas.PNG)
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20bebidas_extintass.PNG)
  <br>
  <br>
 <pre><code>TABELA COMBOS<br>
