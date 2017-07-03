@@ -152,6 +152,36 @@ SELECT nome, email FROM pessoa WHERE email LIKE '%@gmail.com'</code></pre>
 ![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/like_3.PNG)
  <br>
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
+<pre><code>TABELA PESSOA<br>
+update pessoa set id_tipo_pessoa = 1603 where nome = 'Tobias' </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20tobias_gerente.PNG)
+ <br>
+ <br>
+<pre><code>TABELA PRODUTOS<br>
+update produtos set preco_produto = 4.00 where nome_produto = 'Suco' </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20suco_4_pila.PNG)
+ <br>
+ <br>
+<pre><code>TABELA COMBOS<br>
+update combos set preco_combo = 2.00 where id_combo = 1401 </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20combo_2_reais.PNG)
+ <br>
+ <br>
+<pre><code>TABELA PESSOA<br>
+delete from pessoa where id_tipo_pessoa = 1602 </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20funcionarios_demitidos.PNG)
+ <br>
+ <br>
+<pre><code>TABELA PRODUTOS<br>
+delete from produtos where tipo_produto = 'Bebida' </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20bebidas_extintas.PNG)
+ <br>
+ <br>
+<pre><code>TABELA COMBOS<br>
+delete from item_compra where qnt_item > 1 </code></pre>
+![Alt text](https://github.com/BCLL-CantinaIFES/trab01/blob/master/imagens/UD%20-%20produto_vencendo.PNG)
+ <br>
+ <br>
 #### 9.6	CONSULTAS COM JUNÇÃO E ORDENAÇÃO (Todas Junções)<br>
 
 <pre><code>TABELA PESSOA COM JOIN<br>
